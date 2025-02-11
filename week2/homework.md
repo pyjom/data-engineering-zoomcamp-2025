@@ -15,7 +15,7 @@ How many rows are there for the `Yellow` Taxi data for all CSV files in the year
 
 ![1738584375990](image/homework/1738584375990.png)
 
-![1738586092823](image/homework/1738586092823.png)
+![1738761877485](image/homework/1738761877485.png)
 
 4. How many rows are there for the `Green` Taxi data for all CSV files in the year 2020?
 
@@ -28,3 +28,9 @@ How many rows are there for the `Yellow` Taxi data for the March 2021 CSV file?
 - 1,925,152
 
 ![1738587624461](image/homework/1738587624461.png)
+
+
+
+6. How would you configure the timezone to New York in a Schedule trigger?
+
+* Add a `timezone` property set to `America/New_York` in the `Schedule` trigger configuration
