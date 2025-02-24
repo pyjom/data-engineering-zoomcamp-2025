@@ -1,0 +1,1 @@
+SELECT * FROM `zoomcamp.green_tripdata` 
