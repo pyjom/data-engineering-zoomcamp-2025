@@ -1,8 +1,5 @@
-{{
-    config(
-        materialized='view'
-    )
-}}
+{{ config(materialized='view', tags=['test'], limit=100) }}
+
 
 with tripdata as 
 (
@@ -45,8 +42,8 @@ where rn = 1
 
 
 -- dbt build --select <model_name> --vars '{'is_test_run': 'false'}'
-{% if var('is_test_run', default=true) %}
+-- {% if var('is_test_run', default=true) %}
 
-  limit 100
+--   limit 100
 
-{% endif %}
+-- {% endif %}
